@@ -1,7 +1,8 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Sidemenu from "./Sidemenu";
-import Rightmenu from "./Rightmenu";
+import Rightmenu from "../Rightmenu";
+
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       </header>
       <body className="flex w-screen h-screen bg-neutral-200">
         <Sidemenu />
-        <Rightmenu />
+        <Rightmenu/>
       </body>
     </>
   );
