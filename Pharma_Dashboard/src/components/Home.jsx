@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Sidemenu from "./Sidemenu";
-import Rightmenu from "../Rightmenu";
+import Rightmenu from "./components/Rightmenu";
 
 
 export default function Home() {
